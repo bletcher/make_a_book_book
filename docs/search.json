@@ -16,7 +16,6 @@
     "section": "",
     "text": "2.0.1 Github account\nCreate a github account at github.com",
     "crumbs": [
-      "Steps",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Steps</span>"
     ]
   },
@@ -27,7 +26,6 @@
     "section": "2.1 Download",
     "text": "2.1 Download\nDownload Quatro: [https://quarto.org/docs/get-started/]",
     "crumbs": [
-      "Steps",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Steps</span>"
     ]
   },
@@ -38,7 +36,6 @@
     "section": "",
     "text": "3.1 Create a book\nQuatro book guide: https://quarto.org/docs/books/",
     "crumbs": [
-      "Documentation",
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Get started</span>"
     ]
   }
