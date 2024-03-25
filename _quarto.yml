@@ -1,0 +1,41 @@
+project:
+  type: book
+  output-dir: docs
+  
+execute: 
+  warning: FALSE
+  message: FALSE
+  cache: true
+
+comments:
+  hypothesis: 
+    theme: clean
+
+book:
+  title: "Make a book"
+  author: "Ben Letcher"
+  date: today
+  chapters:
+    - index.qmd
+    - part: "Targets"
+      chapters:
+        - vizTargets.qmd
+
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: 
+      light: cosmo
+      dark: darkly
+    code-fold: true
+    code-tools: true
+    code-overflow: wrap
+    number-depth: 4
+      
+  pdf:
+    documentclass: scrreprt
+
+editor: source
