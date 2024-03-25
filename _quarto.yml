@@ -17,9 +17,9 @@ book:
   date: today
   chapters:
     - index.qmd
-    - part: "Targets"
+    - part: "Steps"
       chapters:
-        - vizTargets.qmd
+        - main.qmd
 
     - references.qmd
 
