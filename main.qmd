@@ -1,11 +1,19 @@
 # Steps
 
-## Github account  
+## Get started
+
+### Github account  
 Create a github account at github.com  
 
-## Download
+### Download
 [Download Quatro](https://quarto.org/docs/get-started/)
 
-## 
+###
 
+## Steps to set up the book
+
+### Create github repo
+Go to your github site and create a new repository (repo) for the book with and meaningful name for the book. This repo will also be the name of your RStudio project (see below).  
+
+![New repo](images/repo.png)
 
