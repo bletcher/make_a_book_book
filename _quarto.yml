@@ -21,10 +21,6 @@ book:
       chapters:
         - main.qmd
 
-    - references.qmd
-
-bibliography: references.bib
-
 format:
   html:
     theme: 
