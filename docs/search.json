@@ -12,12 +12,34 @@
   {
     "objectID": "main.html",
     "href": "main.html",
-    "title": "2  Main",
+    "title": "2  Steps",
     "section": "",
-    "text": "3 Steps\n\n3.0.1 Github account\nCreate a github account at github.com\n\n\n3.0.2 Download\nDownload Quatro: https://quarto.org/docs/get-started/\n\n\n3.0.3 Get started\nQuarto get started documentation: https://quarto.org/docs/get-started/hello/rstudio.html\n\n\n3.0.4 Create a book\nQuatro book guide: https://quarto.org/docs/books/",
+    "text": "2.0.1 Github account\nCreate a github account at github.com",
     "crumbs": [
       "Steps",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Main</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Steps</span>"
+    ]
+  },
+  {
+    "objectID": "main.html#download",
+    "href": "main.html#download",
+    "title": "2  Steps",
+    "section": "2.1 Download",
+    "text": "2.1 Download\nDownload Quatro: [https://quarto.org/docs/get-started/]",
+    "crumbs": [
+      "Steps",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Steps</span>"
+    ]
+  },
+  {
+    "objectID": "documentation.html",
+    "href": "documentation.html",
+    "title": "3  Get started",
+    "section": "",
+    "text": "3.1 Create a book\nQuatro book guide: https://quarto.org/docs/books/",
+    "crumbs": [
+      "Documentation",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Get started</span>"
     ]
   }
 ]

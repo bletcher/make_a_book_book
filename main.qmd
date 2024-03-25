@@ -1,19 +1,11 @@
----
-title: "Main"
-format: html
----
-
 # Steps
+
 ### Github account  
 Create a github account at github.com  
 
-### Download
-Download Quatro: https://quarto.org/docs/get-started/
+## Download
+Download Quatro: [https://quarto.org/docs/get-started/]
 
-### Get started
-Quarto get started documentation: https://quarto.org/docs/get-started/hello/rstudio.html  
 
-### Create a book
-Quatro book guide: https://quarto.org/docs/books/
 
 

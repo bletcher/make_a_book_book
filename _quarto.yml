@@ -20,6 +20,9 @@ book:
     - part: "Steps"
       chapters:
         - main.qmd
+    - part: "Documentation"
+      chapters:
+        - documentation.qmd
 
 format:
   html:

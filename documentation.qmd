@@ -1,0 +1,5 @@
+## Get started
+Quarto get started documentation: https://quarto.org/docs/get-started/hello/rstudio.html  
+
+## Create a book
+Quatro book guide: https://quarto.org/docs/books/
