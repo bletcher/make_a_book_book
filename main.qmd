@@ -1,11 +1,11 @@
 # Steps
 
-### Github account  
+## Github account  
 Create a github account at github.com  
 
 ## Download
-Download Quatro: [https://quarto.org/docs/get-started/]
+[Download Quatro](https://quarto.org/docs/get-started/)
 
-
+## 
 
 
