@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Make a book",
+    "section": "",
+    "text": "1 Introduction\nBook about building a book in Quarto and publishing on github.io",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Index</span>"
+    ]
+  },
+  {
+    "objectID": "main.html",
+    "href": "main.html",
+    "title": "2  Main",
+    "section": "",
+    "text": "3 Steps\n\n3.0.1 Github account\nCreate a github account at github.com\n\n\n3.0.2 Download\nDownload Quatro: https://quarto.org/docs/get-started/\n\n\n3.0.3 Get started\nQuarto get started documentation: https://quarto.org/docs/get-started/hello/rstudio.html\n\n\n3.0.4 Create a book\nQuatro book guide: https://quarto.org/docs/books/",
+    "crumbs": [
+      "Steps",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Main</span>"
+    ]
+  }
+]
