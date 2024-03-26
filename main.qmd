@@ -20,11 +20,11 @@ Go to your github site and create a new repository (repo) for the book from the 
 
 Use a meaningful name for the book. This repo name will also be the name of your RStudio project (see below) and the default name for the `github.io` link (e.g. `https://bletcher.github.io/make_a_book_book/`).
 
-Set up your repo using the settings as in the image below:
+Set up your repo using the settings as in the image below (use your own repo name):
 
 ![Create a new repo](images/create_repo.png)
 
-Hit `Create repositry` to create the new repo.
+Hit `Create repository` to create the new repo.
 
 #### Edit readme file
 
