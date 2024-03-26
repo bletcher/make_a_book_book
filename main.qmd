@@ -3,7 +3,7 @@
 ## Get started
 
 ### Github account  
-Create a github account at github.com  
+If you don't have one, create a github account at github.com  
 
 ### Download
 [Download Quatro](https://quarto.org/docs/get-started/)
@@ -48,7 +48,7 @@ Now in RStudio, create a new project based on your new repo. In the upper right 
 
 ![Create project](images/create_project.png)
 
-Click `Git` and paste the copied name of your repo into `Repository URL`. This will automatically use your repo name as the project directory and the project name. Make sure to pick a subdirectory that makes sense for your file organization - I use a `projects` subdirectory for all my project.  
+Click `Git` and paste the copied name of your repo into `Repository URL`. This will automatically use your repo name as the project directory and the project name. Make sure to pick a subdirectory that makes sense for your file organization - I use a `projects` subdirectory for all my projects.  
 
 Hit `Create project` to create the new project and the few files from your repo will be copied into the project directory.
 
@@ -56,9 +56,9 @@ Hit `Create project` to create the new project and the few files from your repo 
 
 we want to copy three files from the `make_a_book_book` [repo](https://github.com/bletcher/make_a_book_book) to help us get started. The files are `_quarto.yml`, `index.qmd` and `build_book.R`.  
 
-You can go to the repo and hit the green `Code` button as before and download ZIP file, extract the files and add them to your project folder, or you can just open two new files in RStudio and copy and paste the code in from the repo files and name the files with the repo file names. Since there are only two files to add, I would just copy and paste (but you will need to deal with spacing issues in the `_quarto.yml` file (see below).  
+You can go to the repo and hit the green `Code` button as before and download ZIP file, extract the files and add them to your project folder, or you can just open three new files in RStudio and copy and paste the code in from the repo files and name the files with the repo file names. Since there are only three files to add, I would just copy and paste (but you will need to deal with spacing issues in the `_quarto.yml` file (see below).  
 
-Create three new R files in Rstudio, open each file in the repo and copy and paste the text into the files in RStudio so that RStudio looks like this (without the `build_book.R` file):
+Create three new R files in Rstudio, open each file in the repo and copy and paste the text into the files in RStudio so that RStudio looks like this (without the `build_book.R` file, you may need to zoom in to see the details in the image below):
 
 ![Two files](images/add_files.png)
 
@@ -68,7 +68,7 @@ The `build_book.R` file contains code for building the whole book or one chapter
 
 When you rename the files, make sure you don't have an appended `*.R` on the filename (e.g. `_quarto.yml.R`). Rename any files that don't match the names as specified above to the correct names. 
 
-In the `book:` section of the `_quarto.yml` file, change the title, the name to fit your project. Also, delete out the `main.qmd` and `links.qmd` rows. These are chapters from the `make_a_book_book` project that you will not use. As you add chapters (`.qmd` files) to you project you will add the Quarto file names here. Be very careful of spacing in the `.yml` file - check the Quarto documentation for `.yml` file details. Make sure the spacing looks like this:
+In the `book:` section of the `_quarto.yml` file, change the title, the name to fit your project. Also, delete out the `main.qmd` and `links.qmd` rows. These are chapters from the `make_a_book_book` project that you are reading that you will not use. As you add chapters (`.qmd` files) to you project you will add the Quarto file names here. Be very careful of spacing in the `.yml` file - check the Quarto documentation for `.yml` file details. Make sure the spacing looks like this:
 
 ![yml spacing](images/yml_spacing.png)
 
@@ -114,7 +114,6 @@ Now you should have files in the `/docs` folder. Redo the commit/Push sequence a
 
 Return to your github page and hit the `Actions` tab. If all went well, you should see a green check icon followed by "pages build and deployment". If there is a green check and not a red x, we have created a web page! Each time you push your project to github, your pages (book) will automatically be updated. For larger projects, it may take a while to update your page and you can watch the progress on the `Actions` tab.
 
+Now go back to the `Settings` tab and go to the `Pages` page and you should now see a "Your site is live at..." and a link to visit the site. This is your site.  
+
 Now that you have a working page, it's a good idea to paste the link into your readme file. You can do that either in github by editing the readme directly or by editing the file in RStudio. If you edit within github, make sure to `Pull` the project in the RStudio to update the project.
-
-Now go back to the `Settings` tab and go to the `Pages` page and you should now see a "Your site is live at..." and a link to visit the site. This is your site
-
