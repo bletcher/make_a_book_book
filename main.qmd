@@ -34,6 +34,20 @@ Edit the readme file by hitting the pencil icon as shown below:
 
 ![Edit readme](images/edit_readme.png)
 
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">View in Full Screen</button>
+
+<div class="modal fade" id="exampleModal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered p-8" style="max-width: 90%">
+    <div class="modal-content">
+
+      ![Edit readme](images/edit_readme.png)
+
+    </div>
+  </div>
+</div>
+***  
+
+
 Add a short description about the repo (book). I like to include the link to the (eventual) github.io page (see below). Hit ` Commit changes` when done and return to the main repo page. 
 
 #### Copy repo link
@@ -41,6 +55,17 @@ Add a short description about the repo (book). I like to include the link to the
 Copy the repo link by hitting the green `Code` button and hitting the copy icon (lower red arrow). We will use this link to set up the project in rStudio.
 
 ![Copy link](images/copy_link.png)
+
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal6">View in Full Screen</button>
+
+<div class="modal fade" id="exampleModal6" tabindex="-1"><div class="modal-dialog modal-dialog-centered p-8" style="max-width: 90%"><div class="modal-content">
+
+  ![Copy link](images/copy_link.png)
+
+</div></div></div>
+***  
+
+
 
 ### RStudio
 
@@ -50,13 +75,17 @@ Now in RStudio, create a new project based on your new repo. In the upper right 
 
 ![Create project](images/create_project.png)
 
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">See in Full Screen</button>
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">View in Full Screen</button>
 
-<div class="modal fade" id="exampleModal" tabindex="-1"><div class="modal-dialog modal-dialog-centered p-8" style="max-width: 90%"><div class="modal-content">
+<div class="modal fade" id="exampleModal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered p-8" style="max-width: 90%">
+    <div class="modal-content">
 
-  ![Create project](images/create_project.png)
+      ![Create project](images/create_project.png)
 
-</div></div></div>  
+    </div>
+  </div>
+</div>  
 ***  
 
 Click `Git` and paste the copied name of your repo into `Repository URL`. This will automatically use your repo name as the project directory and the project name. Make sure to pick a subdirectory that makes sense for your file organization - I use a `projects` subdirectory for all my project.  
@@ -73,14 +102,33 @@ Create three new R files in Rstudio, open each file in the repo and copy and pas
 
 ![Two files](images/add_files.png)
 
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2">See in Full Screen</button>
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2">View in Full Screen</button>
 
-<div class="modal fade" id="exampleModal2" tabindex="-1"><div class="modal-dialog modal-dialog-centered p-8" style="max-width: 90%"><div class="modal-content">
+<div class="modal fade" id="exampleModal2" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered p-8" style="max-width: 90%">
+    <div class="modal-content">
 
-  ![Two files](images/add_files.png)
+      ![Two files](images/add_files.png)
 
-</div></div></div>
+    </div>
+  </div>
+</div>
 ***  
+
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">View in Full Screen</button>
+
+<div class="modal fade" id="exampleModal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered p-8" style="max-width: 90%">
+    <div class="modal-content">
+
+      ![Two files](images/add_files.png)
+
+    </div>
+  </div>
+</div>
+*** 
+
+
 
 The `_quarto.yml` file specifies Quarto options and sets up the structure of the book.  
 The `index.qmd` file is the landing page for our (soon-to-be) github.io web page.
@@ -112,7 +160,7 @@ Since we have made some changes to our files, now is a good time to do our first
 
 ![First commit](images/first_commit.png)
 
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal3">See in Full Screen</button>
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal3">View in Full Screen</button>
 
 <div class="modal fade" id="exampleModal3" tabindex="-1"><div class="modal-dialog modal-dialog-centered p-8" style="max-width: 90%"><div class="modal-content">
 
@@ -131,7 +179,7 @@ Go back to your github page, open the `Settings` tab, and click on `Pages`. Sele
 
 ![Set up branch](images/save_settings.png)
 
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal4">See in Full Screen</button>
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal4">View in Full Screen</button>
 
 <div class="modal fade" id="exampleModal4" tabindex="-1"><div class="modal-dialog modal-dialog-centered p-8" style="max-width: 90%"><div class="modal-content">
 
