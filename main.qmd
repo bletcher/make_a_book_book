@@ -16,7 +16,7 @@ Create a github account at github.com
 #### Create github repo
 Go to your github site and create a new repository (repo) for the book from the `Repositories` tab  
 
-![New repo](images/repo.png)
+![New repo](images_tim//repo_tim/.png)
 
 ***
 
@@ -32,7 +32,7 @@ Hit `Create repository` to create the new repo.
 
 Edit the readme file by hitting the pencil icon as shown below:
 
-![Edit readme](images/edit_readme.png)
+![Edit readme](images_tim//edit_readme_tim/.png)
 
 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal1">View in Full Screen</button>
 
@@ -40,7 +40,7 @@ Edit the readme file by hitting the pencil icon as shown below:
 <div class="modal-dialog modal-dialog-centered p-8" style="max-width: 90%">
 <div class="modal-content">
 
-![Edit readme](images/edit_readme.png)
+![Edit readme](images_tim//edit_readme_tim/.png)
 
 </div>
 </div>
@@ -54,7 +54,7 @@ Add a short description about the repo (book). I like to include the link to the
 
 Copy the repo link by hitting the green `Code` button and hitting the copy icon (lower red arrow). We will use this link to set up the project in rStudio.
 
-![Copy link](images/copy_link.png)
+![Copy link](images_tim//copy_link_tim/.png)
 
 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2">View in Full Screen</button>
 
@@ -62,7 +62,7 @@ Copy the repo link by hitting the green `Code` button and hitting the copy icon 
 <div class="modal-dialog modal-dialog-centered p-8" style="max-width: 90%">
 <div class="modal-content">
 
-![Copy link](images/copy_link.png)
+![Copy link](images_tim//copy_link_tim/.png)
 
 </div>
 </div>
@@ -76,7 +76,7 @@ Copy the repo link by hitting the green `Code` button and hitting the copy icon 
 
 Now in RStudio, create a new project based on your new repo. In the upper right corner, click on `New project` and click `Version control`. 
 
-![Create project](images/create_project.png)
+![Create project](images_tim//create_project_tim/.png)
 
 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal3">View in Full Screen</button>
 
@@ -84,7 +84,7 @@ Now in RStudio, create a new project based on your new repo. In the upper right 
 <div class="modal-dialog modal-dialog-centered p-8" style="max-width: 90%">
 <div class="modal-content">
 
-![Create project](images/create_project.png)
+![Create project](images_tim//create_project_tim/.png)
 
 </div>
 </div>
@@ -103,7 +103,7 @@ You can go to the repo and hit the green `Code` button as before and download ZI
 
 Create three new R files in Rstudio, open each file in the repo and copy and paste the text into the files in RStudio so that RStudio looks like this (without the `build_book.R` file):
 
-![Two files](images/add_files.png)
+![Two files](images_tim//add_files_tim/.png)
 
 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal4">View in Full Screen</button>
 
@@ -111,7 +111,7 @@ Create three new R files in Rstudio, open each file in the repo and copy and pas
 <div class="modal-dialog modal-dialog-centered p-8" style="max-width: 90%">
 <div class="modal-content">
 
-![Two files](images/add_files.png)
+![Two files](images_tim//add_files_tim/.png)
 
 </div>
 </div>
@@ -124,7 +124,7 @@ Create three new R files in Rstudio, open each file in the repo and copy and pas
 <div class="modal-dialog modal-dialog-centered p-8" style="max-width: 90%">
 <div class="modal-content">
 
-![Two files](images/add_files.png)
+![Two files](images_tim/add_files_tim/.png)
 
 </div>
 </div>
@@ -139,7 +139,7 @@ When you rename the files, make sure you don't have an appended `*.R` on the fil
 
 In the `book:` section of the `_quarto.yml` file, change the title, the name to fit your project. Also, delete out the `main.qmd` and `links.qmd` rows. These are chapters from the `make_a_book_book` project that you will not use. As you add chapters (`.qmd` files) to you project you will add the Quarto file names here. Be very careful of spacing in the `.yml` file - check the Quarto documentation for `.yml` file details. Make sure the spacing looks like this:
 
-![yml spacing](images/yml_spacing.png)
+![yml spacing](images_tim/yml_spacing_tim.png)
 
 You can avoid spacing issues by downloading the ZIP file instead of copy/paste (which changes the spacing, agrhh.).  
 
@@ -159,7 +159,7 @@ In the `Files` section of RStudio create a new subdirectory called `docs`. This 
 
 Since we have made some changes to our files, now is a good time to do our first `commit` to github. This will copy the selected files to github and create the next version of the repo. Hit the `Git` tab and select all the files so that your project looks something like this:
 
-![First commit](images/first_commit.png)
+![First commit](images_tim/first_commit_tim.png)
 
 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal6">View in Full Screen</button>
 
@@ -167,7 +167,7 @@ Since we have made some changes to our files, now is a good time to do our first
 <div class="modal-dialog modal-dialog-centered p-8" style="max-width: 90%">
 <div class="modal-content">
 
-![First commit](images/first_commit.png)
+![First commit](images_tim/first_commit_tim.png)
 
 </div>
 </div>
@@ -182,7 +182,7 @@ Let's set up the github.io page so that anyone can see the contents of your proj
 
 Go back to your github page, open the `Settings` tab, and click on `Pages`. Select `Deploy from a branch` in the `Source` section and select the `/docs` option in the `Select folder` dropdown. Hit `Save` as shown below:
 
-![Set up branch](images/save_settings.png)
+![Set up branch](images_tim/save_settings_tim.png)
 
 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal7">View in Full Screen</button>
 
@@ -190,7 +190,7 @@ Go back to your github page, open the `Settings` tab, and click on `Pages`. Sele
 <div class="modal-dialog modal-dialog-centered p-8" style="max-width: 90%">
 <div class="modal-content">
 
-![Set up branch](images/save_settings.png)
+![Set up branch](images_tim/save_settings_tim.png)
 
 </div>
 </div>
