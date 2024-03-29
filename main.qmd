@@ -24,7 +24,7 @@ Use a meaningful name for the book. This repo name will also be the name of your
 
 Set up your repo using the settings as in the image below:
 
-![Create a new repo](images/create_repo.png)
+![Create a new repo](images_tim/create_repo_tim.png)
 
 Hit `Create repositry` to create the new repo.
 
