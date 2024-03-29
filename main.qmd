@@ -18,6 +18,8 @@ Go to your github site and create a new repository (repo) for the book from the 
 
 ![New repo](images/repo.png)
 
+***
+
 Use a meaningful name for the book. This repo name will also be the name of your RStudio project (see below) and the default name for the `github.io` link (e.g. `https://bletcher.github.io/make_a_book_book/`).
 
 Set up your repo using the settings as in the image below:
@@ -46,7 +48,14 @@ Copy the repo link by hitting the green `Code` button and hitting the copy icon 
 
 Now in RStudio, create a new project based on your new repo. In the upper right corner, click on `New project` and click `Version control`. 
 
+
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">See in Full Screen</button>
+
+<div class="modal fade" id="exampleModal" tabindex="-1"><div class="modal-dialog modal-dialog-centered p-8" style="max-width: 90%"><div class="modal-content">
+
 ![Create project](images/create_project.png)
+
+</div></div></div>
 
 Click `Git` and paste the copied name of your repo into `Repository URL`. This will automatically use your repo name as the project directory and the project name. Make sure to pick a subdirectory that makes sense for your file organization - I use a `projects` subdirectory for all my project.  
 
