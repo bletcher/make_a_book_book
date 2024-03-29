@@ -76,7 +76,7 @@ Copy the repo link by hitting the green `Code` button and hitting the copy icon 
 
 Now in RStudio, create a new project based on your new repo. In the upper right corner, click on `New project` and click `Version control`. 
 
-![Create project](images_tim/create_project_Tim.png)
+![Create project](images_tim/create_project2_Tim.png)
 
 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal3">View in Full Screen</button>
 
@@ -84,7 +84,7 @@ Now in RStudio, create a new project based on your new repo. In the upper right 
 <div class="modal-dialog modal-dialog-centered p-8" style="max-width: 90%">
 <div class="modal-content">
 
-![Create project](images_tim/create_project_Tim.png)
+![Create project](images_tim/create_project2_Tim.png)
 
 </div>
 </div>
@@ -103,7 +103,7 @@ You can go to the repo and hit the green `Code` button as before and download ZI
 
 Create three new R files in Rstudio, open each file in the repo and copy and paste the text into the files in RStudio so that RStudio looks like this (without the `build_book.R` file):
 
-![Two files](images_tim/add_files_Tim.png)
+![Added files](images_tim/add_files_Tim.png)
 
 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal4">View in Full Screen</button>
 
@@ -111,25 +111,12 @@ Create three new R files in Rstudio, open each file in the repo and copy and pas
 <div class="modal-dialog modal-dialog-centered p-8" style="max-width: 90%">
 <div class="modal-content">
 
-![Two files](images_tim/add_files_Tim.png)
+![Added files](images_tim/add_files_Tim.png)
 
 </div>
 </div>
 </div>
 ***  
-
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal5">View in Full Screen</button>
-
-<div class="modal fade" id="exampleModal5" tabindex="-1">
-<div class="modal-dialog modal-dialog-centered p-8" style="max-width: 90%">
-<div class="modal-content">
-
-![Two files](images_tim/add_files_Tim.png)
-
-</div>
-</div>
-</div>
-*** 
 
 The `_quarto.yml` file specifies Quarto options and sets up the structure of the book.  
 The `index.qmd` file is the landing page for our (soon-to-be) github.io web page.
@@ -207,5 +194,5 @@ Now you should have files in the `/docs` folder. Redo the commit/Push sequence a
 
 ### github.io 2
 
-Return to your github page and hit the `Actions` tab. If all went well, you should see a green check icon followed by "pages build and deployment". If there is a green check and not a red x, we have created a web page
+Return to your github page and hit the `Actions` tab. If all went well, you should see a green check icon followed by "pages build and deployment". If there is a green check and not a red x, we have created a web page. With larger books, it can be helpful to check here to see when the build is done before checking your github.io page.
 
