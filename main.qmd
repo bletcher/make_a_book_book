@@ -34,9 +34,9 @@ Edit the readme file by hitting the pencil icon as shown below:
 
 ![Edit readme](images/edit_readme.png)
 
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">View in Full Screen</button>
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal1">View in Full Screen</button>
 
-<div class="modal fade" id="exampleModal" tabindex="-1">
+<div class="modal fade" id="exampleModal1" tabindex="-1">
   <div class="modal-dialog modal-dialog-centered p-8" style="max-width: 90%">
     <div class="modal-content">
 
@@ -56,15 +56,18 @@ Copy the repo link by hitting the green `Code` button and hitting the copy icon 
 
 ![Copy link](images/copy_link.png)
 
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal6">View in Full Screen</button>
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2">View in Full Screen</button>
 
-<div class="modal fade" id="exampleModal6" tabindex="-1"><div class="modal-dialog modal-dialog-centered p-8" style="max-width: 90%"><div class="modal-content">
+<div class="modal fade" id="exampleModal2" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered p-8" style="max-width: 90%">
+    <div class="modal-content">
 
-  ![Copy link](images/copy_link.png)
+     ![Copy link](images/copy_link.png)
 
-</div></div></div>
+    </div>
+  </div>
+</div>
 ***  
-
 
 
 ### RStudio
@@ -75,9 +78,9 @@ Now in RStudio, create a new project based on your new repo. In the upper right 
 
 ![Create project](images/create_project.png)
 
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">View in Full Screen</button>
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal3">View in Full Screen</button>
 
-<div class="modal fade" id="exampleModal" tabindex="-1">
+<div class="modal fade" id="exampleModal3" tabindex="-1">
   <div class="modal-dialog modal-dialog-centered p-8" style="max-width: 90%">
     <div class="modal-content">
 
@@ -102,9 +105,9 @@ Create three new R files in Rstudio, open each file in the repo and copy and pas
 
 ![Two files](images/add_files.png)
 
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2">View in Full Screen</button>
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal4">View in Full Screen</button>
 
-<div class="modal fade" id="exampleModal2" tabindex="-1">
+<div class="modal fade" id="exampleModal4" tabindex="-1">
   <div class="modal-dialog modal-dialog-centered p-8" style="max-width: 90%">
     <div class="modal-content">
 
@@ -115,9 +118,9 @@ Create three new R files in Rstudio, open each file in the repo and copy and pas
 </div>
 ***  
 
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">View in Full Screen</button>
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal5">View in Full Screen</button>
 
-<div class="modal fade" id="exampleModal" tabindex="-1">
+<div class="modal fade" id="exampleModal5" tabindex="-1">
   <div class="modal-dialog modal-dialog-centered p-8" style="max-width: 90%">
     <div class="modal-content">
 
@@ -160,13 +163,17 @@ Since we have made some changes to our files, now is a good time to do our first
 
 ![First commit](images/first_commit.png)
 
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal3">View in Full Screen</button>
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal6">View in Full Screen</button>
 
-<div class="modal fade" id="exampleModal3" tabindex="-1"><div class="modal-dialog modal-dialog-centered p-8" style="max-width: 90%"><div class="modal-content">
+<div class="modal fade" id="exampleModal6" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered p-8" style="max-width: 90%">
+    <div class="modal-content">
 
-  ![First commit](images/first_commit.png)
+      ![First commit](images/first_commit.png)
 
-</div></div></div>
+    </div>
+  </div>
+</div>
 ***  
 
 Hit `Commit` and add a meaningful message to the `Commit message` text box. Now, hit the `Commit` button and you should see a list of files that have changed. This has created a new version of all your commited files on your local computer. To send this commit to Github, hit the `Close` button and hit `Push` in the upper right hand corner of the `RStudio: Review Changes` box. Now hit the `Close` button on the `Git Push` box and close the `RStudio: Review Changes`. Repeat the commit/push procedure each time you have made significant changes to your project and you want to create a new version. The github.io web site will reflect the most recent version of your project in github.
@@ -179,13 +186,17 @@ Go back to your github page, open the `Settings` tab, and click on `Pages`. Sele
 
 ![Set up branch](images/save_settings.png)
 
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal4">View in Full Screen</button>
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal7">View in Full Screen</button>
 
-<div class="modal fade" id="exampleModal4" tabindex="-1"><div class="modal-dialog modal-dialog-centered p-8" style="max-width: 90%"><div class="modal-content">
+<div class="modal fade" id="exampleModal7" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered p-8" style="max-width: 90%">
+    <div class="modal-content">
 
-  ![Set up branch](images/save_settings.png)
+      ![Set up branch](images/save_settings.png)
 
-</div></div></div>
+    </div>
+  </div>
+</div>
 ***  
 
 ### RStudio 2
