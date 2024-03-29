@@ -2,27 +2,29 @@
 
 ## Get started
 
-### Github account  
-If you don't have one, create a github account at github.com  
+### GitHub account  
+If you don't have one, create a GitHub account at [github.com](https://github.com/).
 
 ### Download
-[Download Quatro](https://quarto.org/docs/get-started/)
+[Download Quarto](https://quarto.org/docs/get-started/).
 
 
-## Steps to set up the book
+## Set up the book
 
-### Github
+### GitHub
 
-#### Create github repo
-Go to your github site and create a new repository (repo) for the book from the `Repositories` tab  
+#### Create GitHub repo
+Go to your GitHub site and create a new repository (repo) for the book from the `Repositories` tab.
 
-![New repo](images/repo.png)
+<!-- ![New repo](images/repo.png) -->
+![New repo](images/repo_Tim.png)
 
 Use a meaningful name for the book. This repo name will also be the name of your RStudio project (see below) and the default name for the `github.io` link (e.g. `https://bletcher.github.io/make_a_book_book/`).
 
 Set up your repo using the settings as in the image below (use your own repo name):
 
-![Create a new repo](images/create_repo.png)
+<!-- ![Create a new repo](images/create_repo.png) -->
+![Create a new repo](images/create_repo_Tim.png)
 
 Hit `Create repository` to create the new repo.
 
@@ -30,15 +32,18 @@ Hit `Create repository` to create the new repo.
 
 Edit the readme file by hitting the pencil icon as shown below:
 
-![Edit readme](images/edit_readme.png)
+<!-- ![Edit readme](images/edit_readme.png) -->
+![Edit readme](images/edit_readme_Tim.png)
 
 Add a short description about the repo (book). I like to include the link to the (eventual) github.io page (see below). Hit ` Commit changes` when done and return to the main repo page. 
 
 #### Copy repo link
 
-Copy the repo link by hitting the green `Code` button and hitting the copy icon (lower red arrow). We will use this link to set up the project in rStudio.
+Copy the repo link by hitting the green `Code` button and hitting the copy icon (lower red arrow). We will use this link to set up the project in RStudio.
 
-![Copy link](images/copy_link.png)
+<!-- ![Copy link](images/copy_link.png) -->
+![Copy link](images/copy_link_Tim.png)
+
 
 ### RStudio
 
@@ -46,7 +51,8 @@ Copy the repo link by hitting the green `Code` button and hitting the copy icon 
 
 Now in RStudio, create a new project based on your new repo. In the upper right corner, click on `New project` and click `Version control`. 
 
-![Create project](images/create_project.png)
+<!-- ![Create project](images/create_project.png) -->
+![Create project](images/create_project2_tim.png)
 
 Click `Git` and paste the copied name of your repo into `Repository URL`. This will automatically use your repo name as the project directory and the project name. Make sure to pick a subdirectory that makes sense for your file organization - I use a `projects` subdirectory for all my projects.  
 
@@ -54,13 +60,14 @@ Hit `Create project` to create the new project and the few files from your repo 
 
 #### Copy base Quarto files
 
-we want to copy three files from the `make_a_book_book` [repo](https://github.com/bletcher/make_a_book_book) to help us get started. The files are `_quarto.yml`, `index.qmd` and `build_book.R`.  
+We want to copy three files from the `make_a_book_book` [repo](https://github.com/bletcher/make_a_book_book) to help us get started. The files are `_quarto.yml`, `index.qmd` and `build_book.R`.  
 
 You can go to the repo and hit the green `Code` button as before and download ZIP file, extract the files and add them to your project folder, or you can just open three new files in RStudio and copy and paste the code in from the repo files and name the files with the repo file names. Since there are only three files to add, I would just copy and paste (but you will need to deal with spacing issues in the `_quarto.yml` file (see below).  
 
-Create three new R files in Rstudio, open each file in the repo and copy and paste the text into the files in RStudio so that RStudio looks like this (without the `build_book.R` file, you may need to zoom in to see the details in the image below):
+Create three new R files in RStudio, open each file in the repo and copy and paste the text into the files in RStudio so that RStudio looks like this:
 
-![Two files](images/add_files.png)
+<!-- ![Two files](images/add_files.png) -->
+![Two files](images/add_files_Tim.png)
 
 The `_quarto.yml` file specifies Quarto options and sets up the structure of the book.  
 The `index.qmd` file is the landing page for our (soon-to-be) github.io web page.
@@ -70,13 +77,14 @@ When you rename the files, make sure you don't have an appended `*.R` on the fil
 
 In the `book:` section of the `_quarto.yml` file, change the title, the name to fit your project. Also, delete out the `main.qmd` and `links.qmd` rows. These are chapters from the `make_a_book_book` project that you are reading that you will not use. As you add chapters (`.qmd` files) to you project you will add the Quarto file names here. Be very careful of spacing in the `.yml` file - check the Quarto documentation for `.yml` file details. Make sure the spacing looks like this:
 
-![yml spacing](images/yml_spacing.png)
+<!-- ![yml spacing](images/yml_spacing.png) -->
+![yml spacing](images/yml_spacing_Tim.png)
 
 You can avoid spacing issues by downloading the ZIP file instead of copy/paste (which changes the spacing, agrhh.).  
 
 #### Update `.gitignore`
 
-We need to update the default `.gitignore` fie that was created when we made the repo to **not** ignore files in the `\doc` subdirectory. This subdirectory is where the files for the web page will live.  
+We need to update the default `.gitignore` file that was created when we made the repo so that it does **not** ignore files in the `\doc` subdirectory. This subdirectory is where the files for the web page will live.  
 
 Open the `.gitignore` file and comment out the `docs/` line in the `# pkgdown` section so that it looks like this: `#docs/`  
 
@@ -88,19 +96,21 @@ In the `Files` section of RStudio create a new subdirectory called `docs`. This 
 
 #### First commit
 
-Since we have made some changes to our files, now is a good time to do our first `commit` to github. This will copy the selected files to github and create the next version of the repo. Hit the `Git` tab and select all the files so that your project looks something like this:
+Since we have made some changes to our files, now is a good time to do our first `commit` to GitHub. This will copy the selected files to GitHub and create the next version of the repo. Hit the `Git` tab and select all the files so that your project looks something like this:
 
-![First commit](images/first_commit.png)
+<!-- ![First commit](images/first_commit.png) -->
+![First commit](images/first_commit_Tim.png)
 
-Hit `Commit` and add a meaningful message to the `Commit message` text box. Now, hit the `Commit` button and you should see a list of files that have changed. This has created a new version of all your commited files on your local computer. To send this commit to Github, hit the `Close` button and hit `Push` in the upper right hand corner of the `RStudio: Review Changes` box. Now hit the `Close` button on the `Git Push` box and close the `RStudio: Review Changes`. Repeat the commit/push procedure each time you have made significant changes to your project and you want to create a new version. The github.io web site will reflect the most recent version of your project in github.
+Hit `Commit` and add a meaningful message to the `Commit message` text box. Now, hit the `Commit` button and you should see a list of files that have changed. This has created a new version of all your commited files on your local computer. To send this commit to GitHub, hit the `Close` button and hit `Push` in the upper right hand corner of the `RStudio: Review Changes` box. Now hit the `Close` button on the `Git Push` box and close the `RStudio: Review Changes`. Repeat the commit/push procedure each time you have made significant changes to your project and you want to create a new version. The github.io web site will reflect the most recent version of your project in GitHub.
 
 ### github.io
 
 Let's set up the github.io page so that anyone can see the contents of your project on the github.io web page.  
 
-Go back to your github page, open the `Settings` tab, and click on `Pages`. Select `Deploy from a branch` in the `Source` section and select the `/docs` option in the `Select folder` dropdown. Hit `Save` as shown below:
+Go back to your GitHub page, open the `Settings` tab, and click on `Pages`. Select `Deploy from a branch` in the `Source` section and select the `/docs` option in the `Select folder` dropdown. Hit `Save` as shown below:
 
-![Set up branch](images/save_settings.png)
+<!-- ![Set up branch](images/save_settings.png) -->
+![Set up branch](images/save_settings_Tim.png)
 
 ### RStudio 2
 
@@ -112,8 +122,8 @@ Now you should have files in the `/docs` folder. Redo the commit/Push sequence a
 
 ### github.io 2
 
-Return to your github page and hit the `Actions` tab. If all went well, you should see a green check icon followed by "pages build and deployment". If there is a green check and not a red x, we have created a web page! Each time you push your project to github, your pages (book) will automatically be updated. For larger projects, it may take a while to update your page and you can watch the progress on the `Actions` tab.
+Return to your GitHub page and hit the `Actions` tab. If all went well, you should see a green check icon followed by "pages build and deployment". If there is a green check and not a red x, we have created a web page! Each time you push your project to GitHub, your pages (book) will automatically be updated. For larger projects, it may take a while to update your page and you can watch the progress on the `Actions` tab.
 
 Now go back to the `Settings` tab and go to the `Pages` page and you should now see a "Your site is live at..." and a link to visit the site. This is your site.  
 
-Now that you have a working page, it's a good idea to paste the link into your readme file. You can do that either in github by editing the readme directly or by editing the file in RStudio. If you edit within github, make sure to `Pull` the project in the RStudio to update the project.
+Now that you have a working page, it's a good idea to paste the link into your readme file. You can do that either in GitHub by editing the readme directly or by editing the file in RStudio. If you edit within GitHub, make sure to `Pull` the project in the RStudio to update the project.
