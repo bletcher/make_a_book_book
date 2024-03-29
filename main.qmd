@@ -16,7 +16,7 @@ Create a github account at github.com
 #### Create github repo
 Go to your github site and create a new repository (repo) for the book from the `Repositories` tab  
 
-![New repo](images_tim/repo_Tim/.png)
+![New repo](images_tim/repo_Tim.png)
 
 ***
 
