@@ -12,8 +12,8 @@ comments:
     theme: clean
 
 book:
-  title: "Make a book"
-  author: "Ben Letcher"
+  title: "Make a Quarto book"
+  author: "Ben Letcher and Tim Lambert"
   date: today
   chapters:
     - index.qmd

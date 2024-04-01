@@ -28,6 +28,8 @@ Set up your repo using the settings as in the image below (but using your own re
 
 Hit `Create repository` to create the new repo.
 
+***
+
 #### Edit readme file
 
 Edit the readme file by hitting the pencil icon as shown below:
@@ -95,6 +97,8 @@ Click `Git` and paste the copied repo link into `Repository URL`. This will auto
 
 Hit `Create project` to create the new project. This action copies the files from your GitHub repo into your computer's project directory.
 
+***
+
 #### Copy base Quarto files
 
 The `make_a_book_book` repository contains three files that will help us to start our book: `_quarto.yml` specifies Quarto options and sets up the structure of the book, `index.qmd` is the landing page for our (soon-to-be) github.io web page, and `build_book.R` file contains code for building the whole book or one chapter at a time (which will be useful as your book grows).
@@ -135,9 +139,13 @@ Open the `.gitignore` file and comment out the `docs/` line in the `# pkgdown` s
 
 Save the file and close it. You should be able to pretty much ignore the `.gitignore` file from now on.
 
+***
+
 #### Create docs folder
 
 In the `Files` section of RStudio, create a new subdirectory called `docs`. This will hold the documents for the github.io page.
+
+***
 
 #### First commit
 
@@ -194,4 +202,18 @@ Now you should have files in the `/docs` folder. Redo the commit/Push sequence a
 Return to your GitHub page and hit the `Actions` tab. If all went well, you should see a green check icon followed by "pages build and deployment". If there is a green check and not a red x, we have created a web page. With larger books, it may take a while to update your page, so it can be helpful to check the `Actions` tab to track the build progress and confirm it is done before visiting your github.io page.
 
 Now that you have a working page, it’s a good idea to paste a link to it into your readme file. You can edit the readme file either in RStudio or directly in GitHub. If you edit within GitHub, make sure to `Pull` the project from RStudio in order to update the project on your local computer.
+
+
+## Workflow
+Here is a typical workflow (yours may vary):  
+
+Set up the book  
+Make changes to .qmd files  
+Build (render) book  
+Commit to git  
+Push to github  
+  
+Add new chapter (.qmd file)  
+Update _quarto.yml file  
+As above...
 
