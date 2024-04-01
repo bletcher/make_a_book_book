@@ -4,7 +4,7 @@
 [Quarto get started documentation](https://quarto.org/docs/get-started/hello/rstudio.html)  
 
 ## Create a book
-[Quatro book guide](https://quarto.org/docs/books/)
+[Quarto book guide](https://quarto.org/docs/books/)
 
 ## Quarto tips and tricks
 [Productive-r tips and tricks](https://www.productive-r-workflow.com/quarto-tricks)
